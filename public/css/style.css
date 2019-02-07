@@ -65,13 +65,38 @@ h4 {
 .main-nav {
     float: right;
     list-style: none;
-    /* margin-top: 40px; */
+    margin-top: 40px;
 }
 
 .main-nav li {
     display: inline-block;
     margin: 20px;
     font-weight: 400;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    /* border-bottom: 2px solid #228ce6; */
+    border-bottom: 2px solid #555;
+}
+
+.hamburger a {
+    display: none;
+}
+
+.main-nav .hamburger a:hover,
+.main-nav .hamburger a:active {
+  border-bottom: 2px solid transparent;
 }
 
 .hero-text-box {
