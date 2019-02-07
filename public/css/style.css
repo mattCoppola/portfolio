@@ -56,6 +56,22 @@ h4 {
 /*---------------------*/
 /* Header */
 /*---------------------*/
+header#home {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/fireworks.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    text-align: center;
+    width: 1140px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .logo {
     float: left;
@@ -99,14 +115,6 @@ h4 {
   border-bottom: 2px solid transparent;
 }
 
-.hero-text-box {
-    position: absolute;
-    text-align: center;
-    width: 1140px;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 /* .hero-blur {
     width: 61%;
@@ -120,4 +128,52 @@ h4 {
 
 .hero-text-box h1 {
     font-size: 120%;
+}
+
+/*---------------------*/
+/* About Me */
+/*---------------------*/
+
+.about-me {
+    text-align: center;
+}
+
+.about-me h2 {
+    margin-bottom: 2%;
+}
+
+/*---------------------*/
+/* Skills */
+/*---------------------*/
+
+.skills {
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 2%;
+}
+
+/*---------------------*/
+/* Projects */
+/*---------------------*/
+
+.projects {
+    text-align: center;
+}
+
+.projects h2 {
+    margin-bottom: 2%;
+}
+
+/*---------------------*/
+/* Connect */
+/*---------------------*/
+
+.connect {
+    text-align: center;
+}
+
+.connect h2 {
+    margin-bottom: 2%;
 }
