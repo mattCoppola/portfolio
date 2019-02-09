@@ -229,6 +229,10 @@ figcaption {
   margin-bottom: .5em;
 }
 
+.project-screenshot img {
+  width: 100%;
+}
+
 .project-item ul {
   list-style: none;
   text-align: center;
