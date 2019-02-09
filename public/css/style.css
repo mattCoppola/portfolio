@@ -52,27 +52,47 @@ h4 {
     font-weight: 300;
 }
 
+/*PARAGRAPHS*/
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 3%;
+}
 
 /*---------------------*/
 /* Header */
 /*---------------------*/
+nav {
+  position: fixed;
+  width: 100%;
+  color: white;
+  background-color: #8a8a8a;
+  top: 0;
+  z-index: 1000;
+}
+
 header#home {
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/fireworks.jpg); */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/trapezoid.jpg); */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/machupicchu.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/machupicchu.jpg);
     background-size: cover;
+    /* position: relative; */
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     height: 100vh;
 }
 
-.hero-text-box {
+header h1 {
+    text-align: right;
     position: absolute;
-    text-align: center;
+    color: white;
     width: 1140px;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
+    bottom: 1rem;
+    right: 1rem;
+    /* transform: translate(-50%, -50%); */
+}
+
+.hero-text-box {
+  font-size: 150%;
 }
 
 .logo {
@@ -95,7 +115,7 @@ header#home {
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
-    color: #555;
+    color: white;
     text-decoration: none;
     font-size: 90%;
     border-bottom: 2px solid transparent;
@@ -138,6 +158,7 @@ header#home {
 
 .about-me {
     text-align: center;
+    background-color: #FFF;
 }
 
 .about-me h2 {
@@ -149,11 +170,35 @@ header#home {
 /*---------------------*/
 
 .skills {
+    margin: 0 auto;
     text-align: center;
+    background-color: #FDFDFD;
+    max-width: 500px;
 }
 
 .skills h2 {
     margin-bottom: 2%;
+}
+
+.skill-item {
+  width: 100px;
+  margin: 5px;
+  padding: 7px;
+  border: 1px solid #a8a8a8;
+}
+
+.skill-item img {
+  width: 70px;
+}
+
+figcaption {
+  font-size: 80%;
+}
+
+.skills-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 /*---------------------*/
@@ -162,6 +207,7 @@ header#home {
 
 .projects {
     text-align: center;
+    background-color: #FFF;
 }
 
 .projects h2 {
@@ -174,6 +220,7 @@ header#home {
 
 .connect {
     text-align: center;
+    background-color: #FDFDFD;
 }
 
 .connect h2 {
@@ -185,14 +232,14 @@ header#home {
 /*---------------------*/
 
 footer {
-    background-color: #888;
+    background-color: #8a8a8a;
     padding: 50px;
     font-size: 80%;
     text-align: center;
 }
 
 .footer-home-link {
-    color: #555;
+    color: white;
     padding: 8px 0;
     text-decoration: none;
     font-size: 120%;
@@ -225,5 +272,5 @@ footer a:active {
     font-size: 200%;
     text-decoration: none;
     border: 0;
-    color: #000;
+    color: white;
 }
