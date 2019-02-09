@@ -12,7 +12,8 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'Lato', 'Arial', sans-serif;
+    /* font-family: 'Lato', 'Arial', sans-serif; */
+    font-family: 'News Cycle', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -76,6 +77,11 @@ nav {
   z-index: 1000;
 }
 
+nav h1 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 150%;
+}
+
 header#home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/machupicchu.jpg);
     background-size: cover;
@@ -85,18 +91,28 @@ header#home {
     height: 100vh;
 }
 
-header h1 {
-    text-align: right;
-    position: absolute;
-    color: white;
-    width: 1140px;
-    bottom: 1rem;
-    right: 1rem;
+.hero-text-box {
+    font-size: 100%;
+    text-align: center;
     /* transform: translate(-50%, -50%); */
 }
 
-.hero-text-box {
-  font-size: 150%;
+.hero-blur {
+  width: 40%;
+  padding: 1em;
+  /* padding-top: .5em;
+  padding-bottom: 1em; */
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  color: white;
+  /* width: 1140px; */
+  top: 40%;
+  right: 1rem;
+}
+
+.hero-blur h1 {
+  margin-bottom: 1em;
 }
 
 .logo {
@@ -145,19 +161,12 @@ header h1 {
   border-bottom: 2px solid transparent;
 }
 
-
-/* .hero-blur {
-    width: 61%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, 0.5);
-} */
-
-.hero-text-box h1 {
-    font-size: 120%;
+.preview-button {
+  color: white;
+  padding: .5em;
+  border: 1px solid white;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /*---------------------*/
@@ -181,11 +190,16 @@ header h1 {
     margin: 0 auto;
     text-align: center;
     background-color: #FDFDFD;
-    max-width: 500px;
 }
 
 .skills h2 {
     margin-bottom: 2%;
+}
+
+.skills-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
 }
 
 .skill-item {
