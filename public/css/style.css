@@ -45,6 +45,10 @@ section {
     padding: 40px 0;
 }
 
+section h2 {
+  color: #44883E;
+}
+
 section i {
   padding-right: .5em;
 }
@@ -72,7 +76,7 @@ nav {
   position: fixed;
   width: 100%;
   color: white;
-  background-color: #8a8a8a;
+  background-color: #c1c7d5;
   top: 0;
   z-index: 1000;
 }
@@ -94,6 +98,7 @@ header#home {
 .hero-text-box {
     font-size: 100%;
     text-align: center;
+
     /* transform: translate(-50%, -50%); */
 }
 
@@ -103,11 +108,11 @@ header#home {
   /* padding-top: .5em;
   padding-bottom: 1em; */
   border-radius: 5px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   color: white;
   /* width: 1140px; */
-  top: 40%;
+  bottom: 1rem;
   right: 1rem;
 }
 
@@ -243,15 +248,25 @@ figcaption {
   margin-bottom: .5em;
 }
 
+.project-info h3,
+.project-info p {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #44883E;
+}
+
+.project-info h3 {
+  font-weight: 700;
+}
+
 .project-screenshot img {
   width: 100%;
 }
 
 .project-item {
   margin-bottom: 3em;
-  border: 1px solid black;
+  border: 2px solid #44883E;
   background-color: #FDFDFD;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .project-item ul {
@@ -259,18 +274,21 @@ figcaption {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 .project-item li {
   font-size: 80%;
   display: inline;
-  border: 1px solid black;
+  border: 1px solid #44883E;
   padding: .2em;
 }
 
 .project-button {
   text-decoration: none;
+  display: inline-block;
+  color: #555;
+  margin-top: 10px;
   padding-left: 1.5em;
   padding-right: 1.5em;
   border: 1px solid black;
@@ -300,7 +318,7 @@ figcaption {
 /*---------------------*/
 
 footer {
-    background-color: #8a8a8a;
+    background-color: #c1c7d5;
     padding: 50px;
     font-size: 80%;
     text-align: center;
