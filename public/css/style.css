@@ -44,6 +44,10 @@ section {
     padding: 40px 0;
 }
 
+section i {
+  padding-right: .5em;
+}
+
 /*HEADINGS*/
 h1,
 h2,
@@ -216,6 +220,35 @@ figcaption {
 
 .projects h2 {
     margin-bottom: 2%;
+}
+
+.project-info h3,
+.project-info p,
+.project-info ul {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.project-item ul {
+  list-style: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+}
+
+.project-item li {
+  font-size: 80%;
+  display: inline;
+  border: 1px solid black;
+  padding: .2em;
+}
+
+.project-button {
+  text-decoration: none;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border: 1px solid black;
 }
 
 /*---------------------*/
