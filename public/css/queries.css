@@ -85,6 +85,10 @@
         font-size: 150%;
     }
 
+    .wufoo-form {
+      width: 350px;
+    }
+
 }
 
 /*Small Phones from 0 to 480px*/
