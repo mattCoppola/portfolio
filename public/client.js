@@ -15,7 +15,7 @@ $('.scroll').on('click', function (e) {
 //on.click Hamburger Icon                //
 ///////////////////////////////////////////
 
-$('.fa-bars').on('click', function (e) {
-    e.preventDefault();
-    $('.main-nav li').toggleClass('responsive');
-});
+// $('.fa-bars').on('click', function (e) {
+//     e.preventDefault();
+//     $('.main-nav li').toggleClass('responsive');
+// });

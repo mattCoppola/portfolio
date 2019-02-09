@@ -37,11 +37,11 @@
         padding: 30px 0;
     }
 
-    .main-nav {
-      margin-top: 40px;
-    }
+    /* .main-nav {
+      margin-top: 20px;
+    } */
 
-    .menu a {
+    /* .menu a {
         display: none;
     }
 
@@ -61,7 +61,7 @@
         float: none;
         display: block;
         text-align: left;
-    }
+    } */
 
     .fa-bars {
         font-size: 180%;
@@ -99,6 +99,11 @@
 
     footer {
         font-size: 120%;
+    }
+
+    .logo {
+      float: none;
+      text-align: center;
     }
 
 }
