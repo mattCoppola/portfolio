@@ -59,6 +59,12 @@
         font-size: 150%;
     }
 
+    .bio-image {
+        float: none;
+        margin-left: 0;
+        width: 120px;
+    }
+
     .wufoo-form {
       width: 350px;
     }
@@ -85,9 +91,13 @@
     }
 
     .logo {
-      font-size: 190%;
+      font-size: 200%;
       float: none;
       text-align: center;
+    }
+
+    .main-nav {
+        font-size: 110%;
     }
 
 }
