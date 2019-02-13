@@ -87,11 +87,12 @@ nav h1 {
 }
 
 header#home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/machupicchu.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/machupicchu1.jpg);
     background-size: cover;
     /* position: relative; */
     background-position: center;
     /* background-attachment: fixed; */
+    max-width: 2000px;
     height: 100vh;
 }
 
@@ -101,14 +102,14 @@ header#home {
 }
 
 .hero-blur {
-  width: 40%;
+/*  width: 40%;*/
   padding: 1em;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.2);
   position: absolute;
   color: white;
   /* width: 1140px; */
-  bottom: 1rem;
+  top: 6rem;
   right: 1rem;
 }
 
@@ -120,6 +121,11 @@ header#home {
     float: left;
     margin-top: 20px;
     letter-spacing: .1em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #555;
 }
 
 .main-nav {

@@ -63,6 +63,11 @@
       width: 350px;
     }
 
+    .hero-blur {
+        width: 60%;
+        top: 75%;
+    }
+
 }
 
 /*Small Phones from 0 to 480px*/
