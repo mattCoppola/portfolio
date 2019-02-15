@@ -87,7 +87,7 @@ nav h1 {
 }
 
 header#home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/machupicchu.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/machupicchu-web.jpg);
     background-size: cover;
     /* position: relative; */
     background-position: center;
