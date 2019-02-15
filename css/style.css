@@ -79,6 +79,7 @@ nav {
   background-color: #FFF;
   top: 0;
   z-index: 1000;
+  border-bottom: 2px solid #eee;
 }
 
 nav h1 {
@@ -196,7 +197,9 @@ header#home {
 
 .bio-image {
     float: left;
+    width: 20%;
     margin-left: 150px;
+    padding-right: 1em;
     border-radius: 50%;
 }
 
@@ -279,6 +282,9 @@ figcaption {
 
 .project-screenshot img {
   width: 100%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .project-item {
